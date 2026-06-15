@@ -1,0 +1,9 @@
+# Dependencias externas do projeto.
+# Instale todas de uma vez com:  pip install -r requirements.txt
+
+openpyxl==3.1.5     # leitura/escrita de planilhas Excel (.xlsx)
+schedule==1.2.2     # agendamento de tarefas em Python puro
+twilio==9.3.7       # envio de WhatsApp via API da Twilio
+
+# Observacao: o envio de e-mail usa as bibliotecas smtplib e email,
+# que ja vem embutidas no Python (nao precisam ser instaladas).
